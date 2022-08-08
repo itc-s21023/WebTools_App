@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-	  s21021 長嶺 星翔
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div ClassName="container text-center">
+      <p>
+      現在時刻は
+      </p>
+    <Clock />
     </div>
-  );
+  )
+}
+
+class Clock extends React.Component {
+  render() {
+    this.now = new Date();
+    this.time = `${this.now.getHours()}:${this.now.getMinutes()}:${this.now.getSeconds()}`;
+    return <p>{this.time}</p>
+  }
 }
 
 export default App;
+
