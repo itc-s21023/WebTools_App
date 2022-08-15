@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #d3d3d3;
+  background-color: #202020;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,43 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.body {
+  position: absolute;
+  width: 494px;
+  height: 166px;
+
+  background: #D9D9D9;
+}
+
+.clock {
+  position: absolute;
+  width: 214px;
+  height: 48px;
+  align-items: center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+
+  color: #000000;
+}
+
+.clock div {
+  height: 48px;
+  width: 214px;
+  align-items: center;
+  font-size: 48px;
+  color: #000000;
+}
+
+.clock span {
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
 }
 
 .App-link {
