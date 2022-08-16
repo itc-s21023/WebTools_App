@@ -5,7 +5,7 @@ function App() {
   return (
     <div ClassName="container text-center">
       <p>
-      現在時刻は○ ○
+      現在時刻は
       </p>
     <Clock />
     </div>
