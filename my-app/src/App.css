@@ -66,6 +66,9 @@
 }
 
 .clock-seconds {
+  height: 48px;
+  width: 214px;
+  align-items: center;
   font-weight: 400;
   font-size: 48px;
   color: #000000;
