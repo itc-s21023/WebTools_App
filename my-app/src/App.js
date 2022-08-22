@@ -16,9 +16,8 @@ class Clock extends React.Component {
   render() {
     this.now = new Date();
     this.time = `${this.now.getHours()}:${this.now.getMinutes()}:${this.now.getSeconds()}`;
-    return <p>{this.time}</p>
+    return <p>{this.now.getYear() +1900}年{this.now.getMonth() + 1}月{this.now.getDate()} 日{this.time}</p>
   }
 }
 
 export default App;
-
