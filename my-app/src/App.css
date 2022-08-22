@@ -57,7 +57,7 @@
   color: #000000;
 }
 
-.clock-minute {
+.clock-minutes {
   height: 48px;
   width: 214px;
   align-items: center;
@@ -65,7 +65,7 @@
   color: #000000;
 }
 
-.clock-second {
+.clock-seconds {
   font-weight: 400;
   font-size: 48px;
   color: #000000;
