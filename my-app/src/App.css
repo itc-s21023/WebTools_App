@@ -27,7 +27,7 @@
 .container {
   width: 100%;
   height: 100vh;
-  background-color: #15151e;
+  background-color: #D9D9D9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@
   color: #000000;
 }
 
-.clock div {
+.clock-minutes {
   height: 48px;
   width: 214px;
   align-items: center;
@@ -65,7 +65,10 @@
   color: #000000;
 }
 
-.clock span {
+.clock-seconds {
+  height: 48px;
+  width: 214px;
+  align-items: center;
   font-weight: 400;
   font-size: 48px;
   color: #000000;
